@@ -1,6 +1,6 @@
 /*The Home Body Of The Page*/
 .body {
-    background-image: url("static/Backrounds/GnomeyDevBG.jpg");
+    background-image: url("static/Backrounds/homeBG.png");
     background-repeat:repeat;
     background-size: cover;
 }
