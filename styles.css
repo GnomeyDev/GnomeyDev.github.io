@@ -10,26 +10,19 @@
     background-size: cover;
 }
 
-.ProjIntro {
-    border: 15px solid rgb(255, 129, 234);
+.projEl {
+    border: 15px solid rgb(129, 209, 255);
     border-radius: 35px;
-    background-color: rgb(255, 129, 234);
-    text-align: center;
-  }
-
-
-  .intro {
-    border: 15px solid rgb(255, 129, 234);
-    border-radius: 35px;
-    background-color: rgb(255, 129, 234);
-    text-align: center;
-  }
-
-  .pages {
-    border: 15px solid rgb(255, 129, 234);
-    border-radius: 35px;
-    background-color: rgb(255, 129, 234);
+    background-color: rgb(129, 209, 255);
     text-align: left;
+  }
+
+
+  .homeEl {
+    border: 15px solid rgb(255, 129, 234);
+    border-radius: 35px;
+    background-color: rgb(255, 129, 234);
+    text-align: center;
   }
 
   .myButton {
@@ -53,4 +46,10 @@
 	top:1px;
 }
 
-        
+p {
+    font-family: "Lucida Console", Lucida, monospace;
+}
+
+h1 {
+    font-family: "Monaco", Monaco, monospace;
+}
