@@ -1,0 +1,45 @@
+/*The Home Body Of The Page*/
+.body {
+    background-image: url("static/Backrounds/GnomeyDevBG.jpg");
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+/*each Div elemant*/
+.elemant {
+    border: 15px solid rgb(255, 129, 234);
+    border-radius: 35px;
+    background-color: rgb(255, 129, 234);
+    text-align: center;
+  }
+
+  /*The Primary Buttons*/
+.Button1 {
+	background-color:#e787f0;
+	border-radius:20px;
+	border:1px solid #ab1984;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4f1840;
+}
+.Button1:hover {
+	background-color:#bd2aac;
+}
+.Button1:active {
+	position:relative;
+	top:1px;
+}
+
+/*other text elemants*/
+p {
+    font-family: "Lucida Console", Lucida, monospace;
+}
+
+h1 {
+    font-family: "Monaco", Monaco, monospace;
+}
