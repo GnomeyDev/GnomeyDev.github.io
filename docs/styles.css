@@ -4,6 +4,13 @@
     background-size: cover;
 }
 
+.homeEl {
+    border: 15px solid rgb(255, 129, 234);
+    border-radius: 35px;
+    background-color: rgb(255, 129, 234);
+    text-align: center;
+  }
+
 .proj {
     background-image: url("static/Backrounds/ProjBG.png");
     background-repeat:repeat;
@@ -17,12 +24,17 @@
     text-align: left;
   }
 
+.about {
+    background-image: url("static/Backrounds/aboutBG.png");
+    background-repeat:repeat;
+    background-size: cover;
+}
 
-  .homeEl {
-    border: 15px solid rgb(255, 129, 234);
+.aboutEl {
+    border: 15px solid rgb(18, 255, 184);
     border-radius: 35px;
-    background-color: rgb(255, 129, 234);
-    text-align: center;
+    background-color: rgb(18, 255, 184);
+    text-align: left;
   }
 
   .pButton {
