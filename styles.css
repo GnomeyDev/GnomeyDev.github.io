@@ -47,9 +47,9 @@
 }
 
 .bButton {
-	background-color:#e787f0;
+	background-color:#87dbf0;
 	border-radius:28px;
-	border:1px solid #ab1984;
+	border:1px solid #19abab;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -57,10 +57,10 @@
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #4f1840;
+	text-shadow:0px 1px 0px #18494f;
 }
 .bButton:hover {
-	background-color:#bd2aac;
+	background-color:#2abdb1;
 }
 .bButton:active {
 	position:relative;
