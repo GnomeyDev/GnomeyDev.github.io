@@ -27,7 +27,7 @@
 
   .pButton {
 	background-color:#e787f0;
-	border-radius:28px;
+	border-radius:20px;
 	border:1px solid #ab1984;
 	display:inline-block;
 	cursor:pointer;
@@ -48,7 +48,7 @@
 
 .bButton {
 	background-color:#87dbf0;
-	border-radius:28px;
+	border-radius:20px;
 	border:1px solid #19abab;
 	display:inline-block;
 	cursor:pointer;
