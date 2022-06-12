@@ -15,9 +15,9 @@
 
   /*The Primary Buttons*/
 .Button1 {
-	background-color:#e787f0;
+	background-color:#57e7bc;
 	border-radius:20px;
-	border:1px solid #ab1984;
+	border:1px solid #19ab6e;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -25,10 +25,10 @@
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #4f1840;
+	text-shadow:0px 1px 0px #184f3d;
 }
 .Button1:hover {
-	background-color:#bd2aac;
+	background-color:#2abd9d;
 }
 .Button1:active {
 	position:relative;
