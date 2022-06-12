@@ -1,56 +1,56 @@
-body {
+.home {
     background-image: url("static/Backrounds/GnomeyDevBG.jpg");
     background-repeat:repeat;
     background-size: cover;
 }
 
-.myDiv {
+.proj {
+    background-image: url("static/Backrounds/ProjBG.png");
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+.ProjIntro {
     border: 15px solid rgb(255, 129, 234);
     border-radius: 35px;
     background-color: rgb(255, 129, 234);
     text-align: center;
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
+
+  .intro {
+    border: 15px solid rgb(255, 129, 234);
+    border-radius: 35px;
+    background-color: rgb(255, 129, 234);
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
   }
 
-  .active {
-    background-color: #04AA6D;
+  .pages {
+    border: 15px solid rgb(255, 129, 234);
+    border-radius: 35px;
+    background-color: rgb(255, 129, 234);
+    text-align: left;
   }
 
-  /* Add a gray right border to all list items, except the last item (last-child) */
-li {
-    border-right: 1px solid #bbb;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
+  .myButton {
+	background-color:#e787f0;
+	border-radius:28px;
+	border:1px solid #ab1984;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4f1840;
+}
+.myButton:hover {
+	background-color:#bd2aac;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
-  ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+        
