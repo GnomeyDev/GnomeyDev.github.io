@@ -1,0 +1,55 @@
+.home {
+    background-image: url("static/Backrounds/GnomeyDevBG.jpg");
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+.proj {
+    background-image: url("static/Backrounds/ProjBG.png");
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+.projEl {
+    border: 15px solid rgb(129, 209, 255);
+    border-radius: 35px;
+    background-color: rgb(129, 209, 255);
+    text-align: left;
+  }
+
+
+  .homeEl {
+    border: 15px solid rgb(255, 129, 234);
+    border-radius: 35px;
+    background-color: rgb(255, 129, 234);
+    text-align: center;
+  }
+
+  .myButton {
+	background-color:#e787f0;
+	border-radius:28px;
+	border:1px solid #ab1984;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4f1840;
+}
+.myButton:hover {
+	background-color:#bd2aac;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+p {
+    font-family: "Lucida Console", Lucida, monospace;
+}
+
+h1 {
+    font-family: "Monaco", Monaco, monospace;
+}

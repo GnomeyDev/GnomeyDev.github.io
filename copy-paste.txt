@@ -1,0 +1,8 @@
+Navbar list:
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proj.html">Projects</a></li>
+    </ul>
+
+
