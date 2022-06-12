@@ -25,7 +25,7 @@
     text-align: center;
   }
 
-  .myButton {
+  .pButton {
 	background-color:#e787f0;
 	border-radius:28px;
 	border:1px solid #ab1984;
@@ -38,10 +38,31 @@
 	text-decoration:none;
 	text-shadow:0px 1px 0px #4f1840;
 }
-.myButton:hover {
+.pButton:hover {
 	background-color:#bd2aac;
 }
-.myButton:active {
+.pButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bButton {
+	background-color:#e787f0;
+	border-radius:28px;
+	border:1px solid #ab1984;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4f1840;
+}
+.bButton:hover {
+	background-color:#bd2aac;
+}
+.bButton:active {
 	position:relative;
 	top:1px;
 }
