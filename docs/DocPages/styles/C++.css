@@ -18,12 +18,3 @@
 	position:relative;
 	top:1px;
 }
-
-/*other text elemants*/
-p {
-    font-family: "Lucida Console", Lucida, monospace;
-}
-
-h1 {
-    font-family: "Monaco", Monaco, monospace;
-}
