@@ -112,6 +112,7 @@ function everyinterval(n) {
     return false;
 }
 
-function accelerate(n) {
+function goUp(n) {
     myGamePiece.gravity = n;
+    myGamePiece.gravity = 0 - n;
 }
