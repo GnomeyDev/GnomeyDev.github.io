@@ -114,4 +114,5 @@ function everyinterval(n) {
 
 function accelerate(n) {
     myGamePiece.gravity = n;
+    myGamePiece.gravity = 0 - n;
 }
