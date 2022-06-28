@@ -6,10 +6,3 @@ body { padding: 0; margin: 0; }
     border: 5px solid #FFFF00;
     text-align: center;
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
