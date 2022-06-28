@@ -5,4 +5,5 @@ body { padding: 0; margin: 0; }
     color: white;
     border: 5px solid #FFFF00;
     text-align: center;
+    background-image: url(logo.jpg);
 }
