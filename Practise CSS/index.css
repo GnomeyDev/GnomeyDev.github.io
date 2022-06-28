@@ -1,6 +1,7 @@
 .header{
     padding: 10px;
-    border: 20px, red;
-    margin: 10px, 10px, 10px, 10px;
+    border: 20px;
+    border-color: aliceblue;
+    margin: 10, 10, 10, 10px;
     background-color: rgb(34, 34, 34);
 }
