@@ -1,9 +1,6 @@
 body { padding: 0; margin: 0; }
 
 .header{
-    background-color: black;
-    color: white;
-    border: 5px solid #FFFF00;
-    text-align: center;
     background-image: url(logo.jpg);
+    margin: 0, 0, 0, 1000px;
 }
