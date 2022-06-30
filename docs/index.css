@@ -13,18 +13,21 @@ text-align: center;
     text-align: center;
 }
 
+ /*images*/
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+ /*images*/
 
+  /*splitters*/
   hr{
     border: 200px;
   }
+  /*splitters*/
 
     /*Make Text Good*/
-
   h1{
     color: white;
     font-family: "Monaco", Monaco, monospace;
@@ -33,11 +36,9 @@ img {
     color: white;
     font-family: "Lucida Console", Lucida, monospace;
   }
-
     /*Make Text Good*/
 
   /*Creating Buttons*/
-
   .Button1{
     background-color: black;
     padding: 3px;
@@ -51,5 +52,10 @@ img {
   .Button1:hover {
 	background-color:#333333;
 }
+ /*Creating Buttons*/
 
-  /*Creating Buttons*/
+ /*Creating containers*/
+   div{
+    background-color: #333333;
+   }
+ /*Creating containers*/
