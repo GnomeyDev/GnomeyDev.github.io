@@ -23,7 +23,9 @@ img {
 
   h1{
     color: white;
+    font-family: "Monaco", Monaco, monospace;
   }
   p{
     color: white;
+    font-family: "Lucida Console", Lucida, monospace;
   }
