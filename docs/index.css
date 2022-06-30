@@ -1,5 +1,10 @@
 body { padding: 0; margin: 0; }
+
 .Title1{
     background-color: black;
     color: white;
+}
+
+.title{
+    size: 250px;
 }
