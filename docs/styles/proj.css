@@ -21,6 +21,8 @@ img {
   }
  /*images*/
 
+ul{background-color: rgb(21, 22, 22);}
+
   /*splitters*/
   hr{
     border: 200px;
