@@ -59,5 +59,6 @@ img {
     background-color: #333333;
     border-radius: 20px;
     width: 75%;
+    align-content: center;
    }
  /*Creating containers*/
