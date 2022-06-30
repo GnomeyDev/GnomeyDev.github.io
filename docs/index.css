@@ -33,7 +33,7 @@ img {
   .Button1{
     background-color: black;
     padding: 3px;
-    border: 50px rgb(14, 14, 14);
+	border:1px solid #0f0f0f;
     border-radius: 10px;
     color: white;
     padding:16px 31px;
