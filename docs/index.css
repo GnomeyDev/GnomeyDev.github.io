@@ -32,4 +32,6 @@ img {
 
   .Button1{
     background-color: black;
+    padding: 50px;
+    border-radius: 10px;
   }
