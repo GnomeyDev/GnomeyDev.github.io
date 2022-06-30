@@ -40,3 +40,6 @@ img {
     display:inline-block;
     text-decoration:none;
   }
+  .Button1:hover {
+	background-color:#2abd9d;
+}
