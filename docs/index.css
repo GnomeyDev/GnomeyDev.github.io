@@ -57,5 +57,7 @@ img {
  /*Creating containers*/
    div{
     background-color: #333333;
+    border-radius: 20px;
+    width: 75%;
    }
  /*Creating containers*/
