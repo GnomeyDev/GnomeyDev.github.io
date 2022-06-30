@@ -21,6 +21,8 @@ img {
     border: 200px;
   }
 
+    /*Make Text Good*/
+
   h1{
     color: white;
     font-family: "Monaco", Monaco, monospace;
@@ -30,10 +32,14 @@ img {
     font-family: "Lucida Console", Lucida, monospace;
   }
 
+    /*Make Text Good*/
+
+  /*Creating Buttons*/
+
   .Button1{
     background-color: black;
     padding: 3px;
-	border:1px solid #0f0f0f;
+	border:1px solid #ffffff;
     border-radius: 10px;
     color: white;
     padding:16px 31px;
@@ -43,3 +49,5 @@ img {
   .Button1:hover {
 	background-color:#333333;
 }
+
+  /*Creating Buttons*/
