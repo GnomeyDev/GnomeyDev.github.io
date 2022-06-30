@@ -21,7 +21,8 @@ img {
   }
  /*images*/
 
-.nav {background-color: rgb(21, 22, 22);}
+  .nav {background-color: rgb(21, 22, 22);}
+  .nav a {background-color: rgb(21, 22, 22);}
 
   /*splitters*/
   hr{
