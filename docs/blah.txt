@@ -1,8 +1,0 @@
-<ul class = "nav">
-            <li class = "nav"><a href="index.html">Home</a></li>
-            <li class = "nav"><a href="contact.html">Contact</a></li>
-            <li class = "nav"><a href="direct.html">Download</a></li>
-            <li class = "nav"><a href="info.html">About</a></li>
-          </ul>
-
-<link rel="stylesheet" href="styles/navbar.css">
