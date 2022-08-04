@@ -135,3 +135,29 @@ body {
     font-size: 44px;
   }
 
+
+
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 428px;
+
+    border: var(--blurple);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+  }
+
+  .box p{
+    font-size: 100%;
+    line-height: 20px;
+  }
+
+  .box .h3{
+    font-family: Whitney600;
+    line-height: 15px;
+    font-size: 30px;
+  }

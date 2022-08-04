@@ -1,0 +1,33 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+
+:root {
+    --background:					url(https://wallpaperaccess.com/full/964415.jpg);
+    --transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
+	--transparencyalpha:			0.15;						/* default: 0.15				(general darkness of the app)													*/
+	--messagetransparency:			0.75;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
+	--guildchanneltransparency:		0.15;						/* default: 0.15				(additional darkness for guild/channel list)									*/
+	--chatinputtransparency:		0.0;						/* default: 0.0					(additional darkness for chat input container)									*/
+	--memberlisttransparency:		0.0;						/* default: 0.0					(additional darkness for member list)											*/
+	--accentcolor:				    11, 12, 13;	
+
+    --dplus-radius-ui: 10px;
+    --dplus-radius-avatar: 20%;
+    --dplus-radius-server: 20%;
+
+    --background-primary: #000000;
+    --background-secondary: #000000;
+    --background-secondary-alt: #000000;
+    --background-tertiary: #000000;
+    --background-accent: #000000;
+    --background-floating: #000000;
+    --background-nested-floating: #000000;
+    --avatar-size: 10px;
+    --accent: 37, 172, 232;
+    --accent-alt: 29, 101, 134;
+
+    --version1_0_5:					none;	
+}
+
+body{
+    background-image: var(--background-image);
+}
