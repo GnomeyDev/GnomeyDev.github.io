@@ -11,17 +11,17 @@
 
 @font-face {
     font-family: Discord;
-    src: url(styles/fonts/Discord.otf);
+    src: url(fonts/Discord.otf);
   }
 
 @font-face {
     font-family: Whitney400;
-    src: url(styles/fonts/Whitney400.woff);
+    src: url(fonts/Whitney400.woff);
   }
 
 @font-face {
     font-family: Whitney600;
-    src: url(styles/fonts/Whitney600.woff);
+    src: url(fonts/Whitney600.woff);
   }
 
 body {
@@ -64,7 +64,7 @@ body {
     margin-left: 20px;
     border-radius: 7px;
 
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 16px;
     font-family: Whitney400;
@@ -82,7 +82,8 @@ body {
     margin-left: 20px;
     border-radius: 7px;
 
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 13px;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
@@ -132,7 +133,7 @@ body {
     margin-left: 20px;
 
     color: var(--text);
-    font-size: 44px;
+    font-size: 50px;
   }
 
 
@@ -160,4 +161,34 @@ body {
     font-family: Whitney600;
     line-height: 15px;
     font-size: 30px;
+  }
+
+  .disInvite a{
+     background-color: #268d41;
+     border-radius: 5px;
+     float: right;
+
+     font-size: 15px;
+     text-decoration: none;
+     color: var(--text);
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+  }
+  .disInvite h3{
+    font-size: 17px;
+  }
+  .disInvite{
+    background-color: var(--tertiary);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .disInvite::after {
+    content: "";
+    clear: both;
+    display: table;
   }
