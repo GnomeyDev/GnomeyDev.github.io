@@ -11,17 +11,17 @@
 
 @font-face {
     font-family: Discord;
-    src: url(Discord.otf);
+    src: url(styles/fonts/Discord.otf);
   }
 
 @font-face {
     font-family: Whitney400;
-    src: url(Whitney400.woff);
+    src: url(styles/fonts/Whitney400.woff);
   }
 
 @font-face {
     font-family: Whitney600;
-    src: url(Whitney600.woff);
+    src: url(styles/fonts/Whitney600.woff);
   }
 
 body {
