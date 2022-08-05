@@ -6,6 +6,7 @@
     --text2:rgb(204, 204, 204);
     --accent: #43454b;
     --accent2: #383a3e;
+    --accent3: #242528;
     --link: rgb(0, 149, 255);
 }
 
@@ -191,4 +192,41 @@ body {
     content: "";
     clear: both;
     display: table;
+  }
+
+  .python p{
+    font-size: 17px;
+  }
+  .python h3{
+    font-size: 17px;
+  }
+  .python a{
+    background-color: #92a5b2;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #79858d;
+
+     float: right;
+
+     font-size: 15px;
+     text-decoration: none;
+     color: var(--text);
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-left: 5px;
+  }
+  .python{
+    background-color: var(--tertiary);
+
+    border-color: var(--accent3);
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
   }
