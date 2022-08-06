@@ -194,18 +194,17 @@ body {
     display: table;
   }
 
-  .python p{
+  .download p{
     font-size: 17px;
   }
-  .python h3{
+  .download h3{
     font-size: 17px;
   }
-  .python a{
+  .download a{
     background-color: #92a5b2;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #79858d;
 
      float: right;
 
@@ -216,9 +215,17 @@ body {
      padding-right: 20px;
      padding-top: 10px;
      padding-bottom: 10px;
-     margin-left: 5px;
+     margin-left: 10px;
   }
-  .python{
+  .download .source{
+    background-color: #79e384;
+    border-color: #66bd6f;
+  }
+  .download .raw{
+    background-color: #be79e3;
+    border-color: #9d65bb;
+  }
+  .download{
     background-color: var(--tertiary);
 
     border-color: var(--accent3);
