@@ -237,3 +237,9 @@ body {
     margin: 20px;
     width: 400px;
   }
+  .games{
+    width: 90%;
+  }
+  .promos img{
+    height: 45%;
+  }
