@@ -243,3 +243,19 @@ body {
   .promos img{
     height: 45%;
   }
+  label {
+    background: darkorchid;
+    color: white;
+    display: block;
+    width: 10%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ label textarea {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
