@@ -247,9 +247,11 @@ body {
     background: darkorchid;
     color: white;
     display: block;
-    width: 10%;
+    width: 25px;
+    height: 25px;
     padding: 1rem;
     text-align: center;
+    font-size: 15px;
     border-radius: 4px;
     cursor: pointer;
   }
@@ -258,4 +260,36 @@ body {
     top: -9999px;
     left: -9999px;
   }
-  
+  .hiddenchar div{
+    background-color: var(--tertiary);
+    padding: 5px;
+    margin: 5px;
+    width: 120px;
+    text-align: center;
+
+    border-radius: 15px;
+    border-width:10px;
+    border-color: var(--accent3);
+    border-style: solid;
+  }
+  .hiddenchar{
+    display: flex;
+  }
+  .subpage{
+    border-radius: 5px;
+
+    color: var(--text);
+    text-decoration: none;
+  }
+  .glitchFix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .hiddenchar div p{
+    display: flex;
+    font-size: 25px;
+  }
+  textarea {
+    resize: none;
+  }
