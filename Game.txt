@@ -1,0 +1,45 @@
+kaboom()
+
+loadSprite("ufo", "img/ufo.png")
+
+const hCenter = width() / 2
+const vCenter = height() / 2
+
+let rotation = -90
+let distance = 150
+let speed = 0
+
+add([
+    pos(hCenter, vCenter),
+    circle(75),
+])
+
+const player = add([
+	sprite("ufo"),   
+	pos(hCenter, vCenter - 140),      
+	rotate(0),        
+	origin("center"), 
+   scale(0.07, 0.07),
+])
+
+onUpdate(() => {
+   player.moveTo(hCenter + Math.round(Math.cos(rotation * Math.PI / 180) * distance ), vCenter + Math.round(Math.sin(rotation * Math.PI / 180) * distance ))
+   player.angle = rotation + 90
+
+   rotation += speed
+
+   // console.log(Math.sin(rotation ))
+})
+
+onTouchStart((id, pos) => {
+   if (pos.x > hCenter) {
+      speed = 2
+}
+   if (pos.x < hCenter) {
+      speed = -2
+}
+})
+
+onTouchEnd((id, pos) => {
+   speed = 0
+})
